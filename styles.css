@@ -1,0 +1,75 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  color: #ffffff;
+}
+
+main {
+  padding: 20px;
+}
+
+.wishlist {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="url"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #666;
+  color: #fff;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #555;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
