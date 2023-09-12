@@ -2,12 +2,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  background-color: #36393f; /* Dark mode background color */
+  color: #fff; /* Text color */
 }
 
 header {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #7289da; /* Discord blue */
   padding: 20px;
   text-align: center;
 }
@@ -16,17 +16,18 @@ header {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: #2f3136; /* Dark mode container background color */
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.wishlist {
+.wishlist,
+.social-media {
   text-align: center;
 }
 
 h2 {
-  color: #333;
+  color: #fff; /* Header text color */
 }
 
 ul {
@@ -37,34 +38,16 @@ ul {
 li {
   margin: 10px 0;
   padding: 10px;
-  border: 1px solid #ccc;
-  background-color: #fff;
+  border: 1px solid #4f545c; /* Dark mode border color */
+  background-color: #36393f; /* Dark mode background color */
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.add-item {
-  margin-top: 20px;
-}
-
-input[type="text"] {
-  padding: 10px;
-  width: 70%;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #0056b3;
+/* Light blue color for masked links */
+.masked-link {
+  color: #00b0f4; /* Light blue color for links */
+  text-decoration: none;
 }
