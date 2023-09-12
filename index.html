@@ -3,33 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Wishlist</title>
     <link rel="stylesheet" href="styles.css" />
+    <title>Wishlist</title>
   </head>
   <body>
     <header>
       <h1>My Wishlist</h1>
     </header>
-
-    <main>
-      <section class="wishlist">
-        <h2>Add a Wish</h2>
-        <form id="addWishForm">
-          <input type="text" id="wishName" placeholder="Wish" />
-          <input type="text" id="wishPrice" placeholder="Price" />
-          <input type="url" id="wishLink" placeholder="Link" />
-          <button type="submit">Add</button>
-        </form>
-      </section>
-
-      <section class="wishlist">
-        <h2>My Wishes</h2>
-        <ul id="wishlistItems">
-          <!-- Wishes will be added here dynamically -->
+    <div class="container">
+      <div class="wishlist">
+        <h2>Items on My Wishlist</h2>
+        <ul id="wishlist-items">
+          <!-- Wishlist items will be dynamically added here -->
         </ul>
-      </section>
-    </main>
-
-    <script src="wishlist.js"></script>
+        <div class="add-item">
+          <input type="text" id="item-name" placeholder="Enter item name" />
+          <input type="text" id="item-link" placeholder="Enter item link" />
+          <input type="number" id="item-price" placeholder="Enter item price" />
+          <button onclick="addItem()">Add Item</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
