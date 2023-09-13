@@ -14,8 +14,9 @@ const items = [
   { name: "Saying I Love You in different languages Hoodie - 414kr", link: "https://www.etsy.com/dk-en/listing/1516718221/different-languages-love-hoodie-i-love?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=Hoodie+with+quote&ref=sr_gallery-1-32&pro=1&referrer_page_guid=80f69982-1ab9-4156-b40d-b60ed361e6b2&organic_search_click=1&variation0=3628500296&variation1=3644968291" },
   { name: "Have a good day Hoodie - 518kr", link: "https://www.etsy.com/dk-en/listing/1229221543/have-a-good-day-hoodie-trendy-sweatshirt?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=Hoodie+with+quote&ref=sr_gallery-2-1&pro=1&sts=1&referrer_page_guid=f693a02d490.e769beacf8761ff5ff88.00&organic_search_click=1&variation0=2605417322&variation1=2605417316" },
   { name: "CPH X Baggy Cargo Pants Black by BSAT - 499kr", link: "https://www.rudecru.com/dk/cargo-bukser/6715-cph-x-baggy-cargo-pants-black-by-bsat.html" },
-  { name: "Sort Hoodie - 175lr", link: "https://boombutik.dk/products/hoodie?variant=43452916302043" },
-  { name: "Sort Jogging Bukser - 175lr", link: "https://boombutik.dk/products/joggingbukser?variant=39518219305139" },
+  { name: "Sort Hoodie - 175kr", link: "https://boombutik.dk/products/hoodie?variant=43452916302043" },
+  { name: "Sort Jogging Bukser - 175kr", link: "https://boombutik.dk/products/joggingbukser?variant=39518219305139" },
+  { name: "Penge", link: "" },
 ];
 
 items.forEach((item) => {
