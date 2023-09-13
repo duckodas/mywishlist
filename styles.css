@@ -1,53 +1,56 @@
-body {
-  font-family: Arial, sans-serif;
+/* Reset some default styles */
+* {
   margin: 0;
   padding: 0;
-  background-color: #36393f; /* Dark mode background color */
-  color: #fff; /* Text color */
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #313338; /* Set the background color for the entire page */
+  color: #fff; /* Set the default text color to white */
 }
 
 header {
-  background-color: #7289da; /* Discord blue */
+  background-color: #7289da;
+  color: #fff;
   padding: 20px;
   text-align: center;
 }
 
-.container {
-  max-width: 800px;
-  margin: 20px auto;
+button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+main {
   padding: 20px;
-  background-color: #2f3136; /* Dark mode container background color */
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.wishlist,
-.social-media {
-  text-align: center;
-}
-
-h2 {
-  color: #fff; /* Header text color */
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  margin: 10px 0;
-  padding: 10px;
-  border: 1px solid #4f545c; /* Dark mode border color */
-  background-color: #36393f; /* Dark mode background color */
-  border-radius: 5px;
+.wish-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
 }
 
-/* Light blue color for masked links */
-.masked-link {
-  color: #00b0f4; /* Light blue color for links */
-  text-decoration: none;
+.wish-item {
+  background-color: rgba(66, 68, 73, 0.5);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: calc(33.33% - 20px); /* Three items per row */
+}
+
+/* Make the links white */
+.wish-item a {
+  color: #fff;
+  text-decoration: none; /* Remove underlines from links */
 }
