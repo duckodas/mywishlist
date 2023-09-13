@@ -2,9 +2,9 @@ const wishList = document.querySelector(".wish-list");
 
 // Sample wishlist items with name and link (you can replace these with your own data)
 const items = [
-  { name: "Logitech G Pro Wireless gaming mus - 759kr", link: "https://www.elgiganten.dk/product/computer-kontor/computertilbehor/mus-tastatur/mus/logitech-g-pro-wireless-gaming-mus/LTGPROMOUSEWL" },
-  { name: "Logitech G935 trådløst gamingheadset - 1109kr", link: "https://www.elgiganten.dk/product/gaming/spiltilbehor/gaming-headset/logitech-g935-tradlost-gamingheadset/18903" },
-  { name: "Arozzi Arena Fratello gaming skrivebord - 2249kr", link: "https://www.elgiganten.dk/product/gaming/gamingborde-gamingstole/gamingbord/arozzi-arena-fratello-gaming-skrivebord-pure-black/328451" },
+  { name: "Logitech G Pro Wireless gaming mus (MINDST NØDVENDIGT) - 759kr", link: "https://www.elgiganten.dk/product/computer-kontor/computertilbehor/mus-tastatur/mus/logitech-g-pro-wireless-gaming-mus/LTGPROMOUSEWL" },
+  { name: "Logitech G935 trådløst gamingheadset (MINDST NØDVENDIGT) - 1109kr", link: "https://www.elgiganten.dk/product/gaming/spiltilbehor/gaming-headset/logitech-g935-tradlost-gamingheadset/18903" },
+  { name: "Arozzi Arena Fratello gaming skrivebord (MINDST NØDVENDIGT) - 2249kr", link: "https://www.elgiganten.dk/product/gaming/gamingborde-gamingstole/gamingbord/arozzi-arena-fratello-gaming-skrivebord-pure-black/328451" },
   { name: "WIZ LED Lightstrips", link: "https://www.wizconnected.com/da-dk/p/lightstrip-led-strip-forlanger-1-m/8719514261082" },
   { name: "RAZER SEIREN V2 PRO MIKROFON - 1399kr", link: "https://www.power.dk/gaming-og-underholdning/game-streaming/razer-seiren-v2-pro-mikrofon/p-1210725/" },
   { name: "It's ok to not be ok Hoodie - 417kr", link: "https://www.etsy.com/dk-en/listing/1150330570/its-ok-to-not-be-ok-oversized-hoodie?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=Hoodie+with+quote&ref=sc_gallery-1-2&pro=1&referrer_page_guid=80f69982-1ab9-4156-b40d-b60ed361e6b2&plkey=6ea938ae3719f104307e20d3b29e768db663d74c%3A1150330570&variation0=2449037809&variation1=2449037801" },
@@ -16,7 +16,7 @@ const items = [
   { name: "CPH X Baggy Cargo Pants Black by BSAT - 499kr", link: "https://www.rudecru.com/dk/cargo-bukser/6715-cph-x-baggy-cargo-pants-black-by-bsat.html" },
   { name: "Sort Hoodie - 175kr", link: "https://boombutik.dk/products/hoodie?variant=43452916302043" },
   { name: "Sort Jogging Bukser - 175kr", link: "https://boombutik.dk/products/joggingbukser?variant=39518219305139" },
-  { name: "Penge", link: "" },
+  { name: "Penge til lovlig crosser og kørekort (Ville helst have)", link: "" },
 ];
 
 items.forEach((item) => {
