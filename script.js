@@ -16,6 +16,7 @@ const items = [
   { name: "CPH X Baggy Cargo Pants Black by BSAT - 499kr", link: "https://www.rudecru.com/dk/cargo-bukser/6715-cph-x-baggy-cargo-pants-black-by-bsat.html" },
   { name: "Sort Hoodie - 175kr", link: "https://boombutik.dk/products/hoodie?variant=43452916302043" },
   { name: "Sort Jogging Bukser - 175kr", link: "https://boombutik.dk/products/joggingbukser?variant=39518219305139" },
+  { name: "I'm Not Weird I'm Limited Edition Hoodie - 398kr", link: "https://www.etsy.com/dk-en/listing/1249164354/im-not-weird-im-limited-edition-hoodie?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=Hoodie+with+fun+text&ref=sr_gallery-1-42&sts=1&referrer_page_guid=387e9ed9-6445-46db-b49c-6178d10a65ca&organic_search_click=1&variation0=2729371361&variation1=2729371353" },
   { name: "Penge til lovlig crosser og kørekort (Ville helst have)", link: "" },
 ];
 
