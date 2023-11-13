@@ -66,6 +66,10 @@ const items = [
     name: "Duck Crossbody Handbag (White) - 175kr",
     link: "https://thefarmbunch.com/products/duck-crossbody-handbag/",
   },
+  {
+    name: "Dekoration til mit rum",
+    link: "",
+  },
   // {
   //   name: "NAME - kr",
   //   link: "URL_STRING",
