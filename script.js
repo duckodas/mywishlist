@@ -67,6 +67,10 @@ const items = [
     link: "https://thefarmbunch.com/products/duck-crossbody-handbag/",
   },
   {
+    name: "Duck Crossing Sign 10 x 10",
+    link: "https://seducktive.com/all-products/ols/products/duck-crossing-sign",
+  },
+  {
     name: "Dekoration til mit rum",
     link: "",
   },
