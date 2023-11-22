@@ -75,6 +75,14 @@ const items = [
     link: "https://seducktive.com/all-products/ols/products/wrinkle-duck-face-premium-hoodie",
   },
   {
+    name: "Snakes N Space Jacket - 549kr",
+    link: "https://ynw-apparel.com/collections/snakes-n-space-collection/products/snakes-n-space-jacket?variant=41517086507208",
+  },
+  {
+    name: "Snakes N Space Joggers - 368kr",
+    link: "https://ynw-apparel.com/collections/snakes-n-space-collection/products/snakes-n-space-joggers?variant=41517108986056",
+  },
+  {
     name: "Dekoration til mit rum",
     link: "",
   },
