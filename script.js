@@ -83,6 +83,10 @@ const items = [
     link: "https://ynw-apparel.com/collections/snakes-n-space-collection/products/snakes-n-space-joggers?variant=41517108986056",
   },
   {
+    name: "Just A Matter Of Slime Hoodie - 469kr",
+    link: "https://ynw-apparel.com/collections/just-a-matter-of-slime/products/unisex-hoodie?variant=40736577323208",
+  },
+  {
     name: "Dekoration til mit rum",
     link: "",
   },
