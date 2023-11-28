@@ -85,6 +85,14 @@ const items = [
   {
     name: "Just A Matter Of Slime Hoodie - 469kr",
     link: "https://ynw-apparel.com/collections/just-a-matter-of-slime/products/unisex-hoodie?variant=40736577323208",
+  }, 
+  {
+    name: "\"Dear Person Behind Me\" Hoodie - 400kr",
+    link: "https://happinessproject.com/collections/hoodies/products/dear-person-behind-me-hoodie?variant=43983189016804",
+  },
+  {
+    name: "\"It's Okay\" Hoodie - 400kr",
+    link: "https://happinessproject.com/collections/hoodies/products/its-okay-hoodie?variant=44223532335332",
   },
   {
     name: "Dekoration til mit rum",
